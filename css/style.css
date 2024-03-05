@@ -24,6 +24,7 @@ ul li{
 
 .right{
     width: 75vw;
+    margin: 16px 0;
 }
 .heading img{
     width: 30px;
@@ -37,4 +38,88 @@ ul li{
     align-items: center;
     padding: 23px 14px;
     font-size: 13px
+}
+.footer{
+    gap: 13px;
+    font-size: 10px;
+    color: grey;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+}
+.footer a{
+    color: grey;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+
+.header{
+    justify-content: space-between;
+    background-color: rgb(34,34,34);
+    
+    
+}
+
+.header > *{
+padding: 20px;
+}
+.sigupbtn{
+    background-color: black;
+    color: grey;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    width: 80px;
+    border-radius: 40px;
+}
+.sigupbtn:hover{
+    font-size: 17px;
+    color: whitesmoke;
+}
+.btn >*{
+    margin: 0 12px;
+}
+
+.loginbtn{
+    background-color: rgba(245, 234, 234, 0.993);
+    color: rgb(17, 11, 11);
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 79px;
+    border-radius: 21px;
+    padding: 12px;
+}
+.loginbtn:hover{
+    font-size: 17px;
+    color: rgb(12, 9, 9);
+}
+.cardcontainer{
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+    transition: all .9s;
+    display: flex;
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.card >*{
+    padding-top: 10px;
 }
